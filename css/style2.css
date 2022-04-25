@@ -11,6 +11,7 @@ body {
 	font-family: 'Lato', 'Noto Sans KR', sans-serif;
 	font-weight: 400;
 }
+/* HEADER */
 #para-header {
 	padding: 20px;
 }
@@ -20,6 +21,8 @@ body {
 	display: inline-block;
 	margin-bottom: 8px;
 }
+
+/* CONTENTS */
 #para-contents {
 	max-width: 1600px;
 	margin: 0 auto;
@@ -100,4 +103,74 @@ body {
 .content__item:nth-child(even) .content__item__desc {
 	margin-right: 0;
 	margin-left: -3vw;
+}
+
+/* reveal */
+
+.reveal > div,
+.reveal > span {
+	opacity: 0;
+}
+.reveal.show > div,
+.reveal.show > span {
+	animation: opacity 500ms linear forwards;
+}
+.reveal {
+	position: relative;
+}
+.reveal::before {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0;
+	height: 100%;
+	z-index: 100;
+	background-color: #fff;
+}
+.reveal.reveal-two::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0;
+	height: 100%;
+	z-index: 100;
+	background-color: orange;
+}
+
+.reveal.show::before {
+	animation: reveal 1000ms cubic-bezier(0.77, 0, 0.18, 1);
+}
+@keyframes opacity {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	70% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes reveal {
+	0% {
+		width: 0;
+		left: 0;
+	}
+	50% {
+		width: 100%;
+		left: 0;
+	}
+	80% {
+		width: 100%;
+		left: 0;
+	}
+	100% {
+		width: 0;
+		left: 100%;
+	}
 }
