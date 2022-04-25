@@ -1,0 +1,257 @@
+/* font-family */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Noto+Sans+KR:wght@100;400&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+/* common */
+html {
+	font-size: 62.5%;
+}
+body {
+	background-color: #232323;
+	font-size: 1.6rem;
+	padding: 30px;
+	color: #fff;
+	font-family: 'Lato', 'Noto Sans KR', 'Roboto Condensed', sans-serif;
+}
+
+/* HEADER */
+header {
+}
+header h1 {
+	border-bottom: dashed 1px #fff;
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 2rem;
+}
+
+/* MAIN */
+main {
+}
+main .content--wrap {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+/* SEC 01 */
+main .content--wrap #section01 {
+	margin: 600px 0;
+	padding-top: 600px;
+	width: 1000px;
+	text-align: right;
+	position: relative;
+}
+main .content--wrap #section01 .content__item__num {
+	font-size: 50rem;
+	letter-spacing: -21px;
+	font-weight: 100;
+	opacity: 0.3;
+	position: absolute;
+	right: -50px;
+	top: 230px;
+	z-index: -1;
+}
+main .content--wrap #section01 .content__item__title {
+	font-family: 'Roboto Condensed';
+	font-size: 5rem;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+main .content--wrap #section01 .content__item__imgwrap {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+main .content--wrap #section01 .content__item__imgwrap .content__item__img {
+	background-image: url('https://webstoryboy.github.io/wtss/refer-effect/assets/img/bg1.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+main .content--wrap #section01 .content__item__desc {
+	position: absolute;
+	font-family: 'Noto Sans KR';
+	font-weight: 100;
+	letter-spacing: -0.5rem;
+	font-size: 10rem;
+	bottom: -800px;
+}
+
+/* SEC 02 */
+main .content--wrap #section02 {
+	margin: 600px 0;
+	padding-top: 600px;
+	width: 1000px;
+	text-align: left;
+	position: relative;
+	margin-left: auto;
+}
+main .content--wrap #section02 .content__item__num {
+	font-size: 50rem;
+	letter-spacing: -21px;
+	font-weight: 100;
+	opacity: 0.3;
+	position: absolute;
+	left: -50px;
+	top: 230px;
+	z-index: -1;
+}
+main .content--wrap #section02 .content__item__title {
+	font-family: 'Roboto Condensed';
+	font-size: 5rem;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+main .content--wrap #section02 .content__item__imgwrap {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+main .content--wrap #section02 .content__item__imgwrap .content__item__img {
+	background-image: url('https://webstoryboy.github.io/wtss/refer-effect/assets/img/bg2.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+main .content--wrap #section02 .content__item__desc {
+	position: absolute;
+	font-family: 'Noto Sans KR';
+	font-weight: 100;
+	letter-spacing: -0.5rem;
+	font-size: 10rem;
+	bottom: -800px;
+}
+
+/* SEC 03 */
+main .content--wrap #section03 {
+	margin: 600px 0;
+	padding-top: 600px;
+	width: 1000px;
+	text-align: right;
+	position: relative;
+}
+main .content--wrap #section03 .content__item__num {
+	font-size: 50rem;
+	letter-spacing: -21px;
+	font-weight: 100;
+	opacity: 0.3;
+	position: absolute;
+	right: -50px;
+	top: 230px;
+	z-index: -1;
+}
+main .content--wrap #section03 .content__item__title {
+	font-family: 'Roboto Condensed';
+	font-size: 5rem;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+main .content--wrap #section03 .content__item__imgwrap {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+main .content--wrap #section03 .content__item__imgwrap .content__item__img {
+	background-image: url('https://webstoryboy.github.io/wtss/refer-effect/assets/img/bg3.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+main .content--wrap #section03 .content__item__desc {
+	position: absolute;
+	font-family: 'Noto Sans KR';
+	font-weight: 100;
+	letter-spacing: -0.5rem;
+	font-size: 10rem;
+	bottom: -800px;
+}
+
+/* SEC 04 */
+main .content--wrap #section04 {
+	margin: 600px 0;
+	padding-top: 600px;
+	width: 1000px;
+	text-align: left;
+	position: relative;
+	margin-left: auto;
+}
+main .content--wrap #section04 .content__item__num {
+	font-size: 50rem;
+	letter-spacing: -21px;
+	font-weight: 100;
+	opacity: 0.3;
+	position: absolute;
+	left: -50px;
+	top: 230px;
+	z-index: -1;
+}
+main .content--wrap #section04 .content__item__title {
+	font-family: 'Roboto Condensed';
+	font-size: 5rem;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+main .content--wrap #section04 .content__item__imgwrap {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+main .content--wrap #section04 .content__item__imgwrap .content__item__img {
+	background-image: url('https://webstoryboy.github.io/wtss/refer-effect/assets/img/bg4.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+main .content--wrap #section04 .content__item__desc {
+	position: absolute;
+	font-family: 'Noto Sans KR';
+	font-weight: 100;
+	letter-spacing: -0.5rem;
+	font-size: 10rem;
+	bottom: -800px;
+}
+
+/* SEC 05 */
+main .content--wrap #section05 {
+	margin: 600px 0;
+	padding-top: 600px;
+	width: 1000px;
+	text-align: right;
+	position: relative;
+}
+main .content--wrap #section05 .content__item__num {
+	font-size: 50rem;
+	letter-spacing: -21px;
+	font-weight: 100;
+	opacity: 0.3;
+	position: absolute;
+	right: -50px;
+	top: 230px;
+	z-index: -1;
+}
+main .content--wrap #section05 .content__item__title {
+	font-family: 'Roboto Condensed';
+	font-size: 5rem;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+main .content--wrap #section05 .content__item__imgwrap {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+main .content--wrap #section05 .content__item__imgwrap .content__item__img {
+	background-image: url('https://webstoryboy.github.io/wtss/refer-effect/assets/img/bg5.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+main .content--wrap #section05 .content__item__desc {
+	position: absolute;
+	font-family: 'Noto Sans KR';
+	font-weight: 100;
+	letter-spacing: -0.5rem;
+	font-size: 10rem;
+	bottom: -800px;
+}
+
+
+/*# sourceMappingURL=/style.78032849.css.map */

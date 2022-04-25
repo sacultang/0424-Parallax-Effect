@@ -1,0 +1,26 @@
+{
+	"name": "parallax-effect",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"dev": "parcel index2.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sacultang/0424-Parallax-Effect.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sacultang/0424-Parallax-Effect/issues"
+	},
+	"homepage": "https://github.com/sacultang/0424-Parallax-Effect#readme",
+	"dependencies": {
+		"lodash": "^4.17.21"
+	},
+	"devDependencies": {
+		"parcel-bundler": "^1.12.5"
+	}
+}
